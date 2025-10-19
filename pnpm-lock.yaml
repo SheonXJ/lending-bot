@@ -11,6 +11,9 @@ importers:
       '@prisma/client':
         specifier: ^6.17.1
         version: 6.17.1(prisma@6.17.1(typescript@5.9.3))(typescript@5.9.3)
+      '@sinclair/typebox':
+        specifier: ^0.34.41
+        version: 0.34.41
       axios:
         specifier: ^1.12.2
         version: 1.12.2
@@ -109,6 +112,9 @@ packages:
 
   '@prisma/get-platform@6.17.1':
     resolution: {integrity: sha512-AKEn6fsfz0r482S5KRDFlIGEaq9wLNcgalD1adL+fPcFFblIKs1sD81kY/utrHdqKuVC6E1XSRpegDK3ZLL4Qg==}
+
+  '@sinclair/typebox@0.34.41':
+    resolution: {integrity: sha512-6gS8pZzSXdyRHTIqoqSVknxolr1kzfy4/CeDnrzsVz8TTIWUbOBr6gnzOmTYJ3eXQNh4IYHIGi5aIL7sOZ2G/g==}
 
   '@standard-schema/spec@1.0.0':
     resolution: {integrity: sha512-m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA==}
@@ -727,6 +733,8 @@ snapshots:
   '@prisma/get-platform@6.17.1':
     dependencies:
       '@prisma/debug': 6.17.1
+
+  '@sinclair/typebox@0.34.41': {}
 
   '@standard-schema/spec@1.0.0': {}
 
