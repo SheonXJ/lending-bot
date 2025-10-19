@@ -67,3 +67,4 @@ dist
 # local storage folder
 storage
 redis.conf
+/src/generated/prisma
