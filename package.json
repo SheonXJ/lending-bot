@@ -12,13 +12,16 @@
   "license": "ISC",
   "packageManager": "pnpm@10.12.1",
   "dependencies": {
+    "@fastify/swagger": "^9.5.2",
+    "@fastify/swagger-ui": "^5.2.3",
     "@prisma/client": "^6.17.1",
     "@sinclair/typebox": "^0.34.41",
     "axios": "^1.12.2",
     "dotenv": "^17.2.3",
     "fastify": "^5.6.1",
     "fastify-cors": "^6.1.0",
-    "fastify-plugin": "^5.1.0"
+    "fastify-plugin": "^5.1.0",
+    "fluent-json-schema": "^6.0.0"
   },
   "devDependencies": {
     "@types/node": "^24.8.1",
